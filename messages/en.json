@@ -1,0 +1,67 @@
+{
+  "homepage": {
+    "navigation": {
+      "logo": "Logo",
+      "link_about": "About",
+      "link_events": "Events",
+      "link_contact": "Contact"
+    },
+    "hero_section": {
+      "welcome_message": "Welcome to the Trondheim Hungarian Club website!",
+      "explore_events": "Explore upcoming events in Trondheim."
+    },
+    "services": {
+      "title": "Services",
+      "friendship": {
+        "title": "Making New Friendships",
+        "description": "Meet new people in the Hungarian community."
+      },
+      "networking": {
+        "title": "Networking",
+        "description": "Stay in touch with old and new friends."
+      },
+      "learning": {
+        "title": "Learning Together",
+        "description": "Learn together with others, share your knowledge and experience."
+      },
+      "entertainment": {
+        "title": "Entertainment",
+        "description": "Participate in various cultural and community events."
+      }
+    },
+    "about_us": {
+      "title": "About Us",
+      "description": "The Trondheim Hungarian Club is a unique community where the love of Hungarian culture and language connects the Hungarians living here. Our goal is to create a friendly and supportive community where everyone can feel at home.",
+      "link_about": "Learn more about us"
+    },
+    "upcoming_events": {
+      "title": "Upcoming Events",
+      "event_1": {
+        "name": "May 1st Grill Party",
+        "details": "[Date, time, location]"
+      },
+      "event_2": {
+        "name": "Halloween",
+        "details": "[Date, time, location]"
+      },
+      "event_3": {
+        "name": "Mikulás",
+        "details": "[Date, time, location]"
+      },
+      "link_events": "View all events"
+    },
+    "event_calendar": {
+      "title": "Event Calendar",
+      "description": "View all upcoming events in our calendar!"
+    },
+    "contact_us_cta": {
+      "title": "Get in Touch",
+      "description": "If you have any questions, are curious about us, or would like to join us, you can reach us at:",
+      "e-mail": "TMK.info@gmail.com"
+    },
+    "footer": {
+      "copyright": "© 2024 Trondheim Hungarian Club. All rights reserved.",
+      "org_number": "Organisasjonsnr:"
+    }
+  }
+}

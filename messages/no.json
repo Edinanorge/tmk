@@ -1,0 +1,67 @@
+{
+  "homepage": {
+    "navigation": {
+      "logo": "Logo",
+      "link_about": "Om oss",
+      "link_events": "Arrangementer",
+      "link_contact": "Kontakt"
+    },
+    "hero_section": {
+      "welcome_message": "Velkommen til nettstedet til Trondheim Ungarske Klubb!",
+      "explore_events": "Utforsk kommende arrangementer i Trondheim."
+    },
+    "services": {
+      "title": "Tjenester",
+      "friendship": {
+        "title": "Skape Nye Vennskap",
+        "description": "Møt nye mennesker i det ungarske samfunnet."
+      },
+      "networking": {
+        "title": "Nettverksbygging",
+        "description": "Hold kontakten med gamle og nye venner."
+      },
+      "learning": {
+        "title": "Lære Sammen",
+        "description": "Lær sammen med andre, del din kunnskap og erfaring."
+      },
+      "entertainment": {
+        "title": "Underholdning",
+        "description": "Delta på ulike kulturelle og samfunnsarrangementer."
+      }
+    },
+    "about_us": {
+      "title": "Om Oss",
+      "description": "Trondheim Ungarske Klubb er et unikt samfunn der kjærligheten til ungarsk kultur og språk forbinder ungarerne som bor her. Vårt mål er å skape et vennlig og støttende fellesskap hvor alle kan føle seg hjemme.",
+      "link_about": "Les mer om oss"
+    },
+    "upcoming_events": {
+      "title": "Kommende Arrangementer",
+      "event_1": {
+        "name": "1. mai Grillfest",
+        "details": "[Dato, tid, sted]"
+      },
+      "event_2": {
+        "name": "Halloween",
+        "details": "[Dato, tid, sted]"
+      },
+      "event_3": {
+        "name": "Mikulás",
+        "details": "[Dato, tid, sted]"
+      },
+      "link_events": "Se alle arrangementer"
+    },
+    "event_calendar": {
+      "title": "Arrangementskalender",
+      "description": "Se alle kommende arrangementer i kalenderen vår!"
+    },
+    "contact_us_cta": {
+      "title": "Ta Kontakt",
+      "description": "Hvis du har spørsmål, er nysgjerrig på oss, eller ønsker å bli med oss, kan du nå oss på:",
+      "e-mail": "TMK.info@gmail.com"
+    },
+    "footer": {
+      "copyright": "© 2024 Trondheim Ungarske Klubb. Alle rettigheter forbeholdt.",
+      "org_number": "Organisasjonsnr:"
+    }
+  }
+}

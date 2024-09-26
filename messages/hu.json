@@ -1,0 +1,87 @@
+{
+  "homepage": {
+    "navigation": {
+      "logo": "Logo",
+      "link_about": "Az egyesületről",
+      "link_events": "Események",
+      "link_contact": "Kapcsolat"
+    },
+    "hero_section": {
+      "welcome_message": "Üdvözöllek a Trondheimi Magyarok Klubja weboldalán!",
+      "explore_events": "Fedezd fel a közelgő eseményeket Trondheimben."
+    },
+    "services": {
+      "title": "Szolgáltatások",
+      "friendship": {
+        "title": "Új Barátságok Kialakítása",
+        "description": "Ismerkedj meg új emberekkel a magyar közösségben."
+      },
+      "networking": {
+        "title": "Kapcsolattartás",
+        "description": "Tartsd a kapcsolatot régi és új barátaiddal."
+      },
+      "learning": {
+        "title": "Közös Tanulás",
+        "description": "Tanulj együtt másokkal, osszd meg tudásodat és tapasztalataidat."
+      },
+      "entertainment": {
+        "title": "Szórakozás",
+        "description": "Vegyél részt számos kulturális és közösségi eseményen."
+      }
+    },
+    "about_us": {
+      "title": "Kik vagyunk?",
+      "description": "A Trondheimi Magyarok Klubja egy különleges közösség, ahol a magyar kultúra és nyelv szeretete összeköti az itt élő magyarokat. Célunk, hogy egy barátságos és támogató közösséget teremtsünk, ahol mindenki otthon érezheti magát.",
+      "link_about": "Tudj meg többet rólunk"
+    },
+    "upcoming_events": {
+      "title": "Közelgő Események",
+
+      "link_events": "Tekintsd meg az összes eseményt"
+    },
+    "event_calendar": {
+      "title": "Esemény Naptár",
+      "description": "Tekintsd meg az összes közelgő eseményünket a naptárunkban!"
+    },
+    "contact_us_cta": {
+      "title": "Lépj velünk kapcsolatba",
+      "description": "Ha kérdésed van, vagy kiváncsi vagy ránk esetleg csatlakozni szeretnél hozzánk elérsz minket: ",
+      "e-mail": "trmk.info@gmail.com"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Trondheimi Magyarok Klubja. Minden jog fenntartva.",
+    "org_number": "Organisasjonsnr:"
+  },
+  "about_page": {
+    "introduction": {
+      "title": "Rólunk",
+      "description": "A Trondheimi Magyarok Klubjának megalapítása egy különleges kezdeményezés, ami a Norvégiában élő magyar közösség szívéből fakad. Célunk, hogy egy olyan barátságos és meghitt helyet teremtsünk, ahol a magyar nyelv és kultúra szeretete összekötheti az itt élő magyarokat, függetlenül attól, hogy régi telepesek vagy újonnan érkezettek."
+    },
+    "mission": {
+      "title": "Küldetésünk",
+      "description": "Klubunk az otthon melegét hivatott átadni a messzi északon, ahol a magyar szó és a hagyományaink ápolása, megőrzése áll a középpontban. Fontosnak tartjuk, hogy a magyar nyelvet és kultúrát minden korosztály számára hozzáférhetővé tegyük, legyen szó akár a gyerekekről, akik itt nőnek fel, vagy a felnőttekről, akik talán már évtizedek óta élnek Norvégiában."
+    },
+    "activities": {
+      "title": "Tevékenységeink",
+      "description": "Szervezetünk tevékenységei közé tartozik kulturális rendezvények, nyelvi foglalkozások és közösségi összejövetelek szervezése. Célunk, hogy egy erős és összetartó közösséget hozzunk létre, ahol mindenki megtalálhatja a számára értékes kapcsolódási pontokat, legyen az a magyar nyelv gyakorlása, a hagyományaink megismerése vagy egyszerűen a hasonló helyzetben lévő emberekkel való találkozás."
+    },
+    "join_us": {
+      "title": "Csatlakozz Hozzánk!",
+      "description": "A Trondheimi Magyarok Klubja nyitott mindenki számára, aki érdeklődik a magyar nyelv és kultúra iránt, és szeretne részt venni egy aktív, támogató közösség életében. Büszkék vagyunk arra, hogy összehozhatjuk a magyarokat Norvégiában, és együtt ünnepelhetjük kultúránkat, miközben támogatjuk egymást a távoli északi otthonunkban.",
+      "cta": "Csatlakozz hozzánk, és legyél részese egy olyan különleges közösségnek, ahol a magyar szívdobogása érezhető még a jeges északi szélben is. Várunk szeretettel mindenkit, aki velünk együtt kívánja ápolni és megőrizni magyarságunkat a világ ezen távoli szegletében."
+    }
+  },
+
+  "contact_page": {
+    "introduction": {
+      "title": "Kapcsolat",
+      "description": "Köszönjük, hogy kapcsolatba szeretnél lépni velünk! Kérünk, írj az alábbi e-mail címre, hogy felvehesd velünk a kapcsolatot."
+    },
+    "contact_info": {
+      "email_title": "E-mail cím:",
+      "email_address": "trmk.info@gmail.com",
+      "description": "Várjuk, hogy hamarosan halljunk Rólad!"
+    }
+  }
+}
