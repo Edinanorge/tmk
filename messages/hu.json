@@ -83,5 +83,9 @@
       "email_address": "trmk.info@gmail.com",
       "description": "Várjuk, hogy hamarosan halljunk Rólad!"
     }
+  },
+
+  "event_page": {
+    "title": "Közelgő Események"
   }
 }

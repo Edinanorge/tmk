@@ -25,7 +25,7 @@ export default function Services() {
 
   return (
     <Wrapper>
-      <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start gap-10 text-center mt-[-120px]">
+      <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start gap-10 text-center mt-[-120px] ">
         {serviceData.map((service) => (
           <div key={service.title} className="flex-1 flex flex-col justify-center items-center">
             <div className="bg-primary h-40 w-40 rounded-full flex justify-center items-center mb-10 shadow-xl">

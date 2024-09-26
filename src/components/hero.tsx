@@ -14,7 +14,7 @@ const fontH1 = Abril_Fatface({
 });
 
 const Hero: React.FC<HeroProps> = ({ title, subtitle, heroImage, height = "full" }) => {
-  const heightClass = height === "half" ? "h-[60vh] w-full" : "h-[90vh]  w-full";
+  const heightClass = height === "half" ? "h-[60vh] w-full" : "h-[110vh]  w-full";
   return (
     <div className="flex flex-col  w-full  shadow-md shadow-secondary">
       <section className={`relative w-full flex flex-col items-center justify-center ${heightClass} pt-16`}>

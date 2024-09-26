@@ -44,7 +44,7 @@ export default function Header() {
     >
       <nav className="flex justify-between items-center px-5 md:px-10 py-4">
         <Link href="/">
-          <Image src={logo} alt="Logo" className={scrolled ? "h-20 w-full" : "h-40 w-full"} />
+          <Image src={logo} alt="Logo" className="h-20 w-full" />
         </Link>
 
         <ul className="hidden md:flex gap-8">

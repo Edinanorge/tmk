@@ -10,7 +10,7 @@ import Wrapper from "@/components/wrapper";
 export default function About() {
   const t = useTranslations("about_page");
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <main className="flex min-h-screen flex-col items-center justify-between text-center md:text-start">
       <Hero title={t("introduction.title")} heroImage={hero.src} height="half" />
       <Wrapper>
         <div className="flex flex-col md:flex-row gap-10 mb-10">
@@ -31,7 +31,9 @@ export default function About() {
       </Wrapper>
 
       <div className="bg-[#62A58A]">
-        <h2 className="italic font-normal text-dark p-10 md:p-24">{t("join_us.description")}</h2>
+        <h2 className="italic font-normal text-dark p-10 md:p-24 text-[20px] md:text-[32px]">
+          {t("join_us.description")}
+        </h2>
       </div>
 
       <Wrapper>

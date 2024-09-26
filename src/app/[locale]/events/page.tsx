@@ -1,17 +1,15 @@
 import { useTranslations } from "next-intl";
 import Hero from "@/components/hero";
 import hero from "../../../../public/hero.jpg";
+import Wrapper from "@/components/wrapper";
+import { Montserrat } from "@next/font/google";
 
 export default function EventList() {
-  const t = useTranslations("homepage");
+  const t = useTranslations("event_page");
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero title={t("upcoming_events.title")} heroImage={hero.src} height="half" />
-
-      <ul>
-        <li>event 1</li>
-        <li>event 2</li>
-      </ul>
+      <Hero title={t("title")} heroImage={hero.src} height="half" />
+      <div>Comming soon...</div>
     </main>
   );
 }
