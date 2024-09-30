@@ -7,14 +7,14 @@
       "link_contact": "Kontakt"
     },
     "hero_section": {
-      "welcome_message": "Velkommen til nettstedet til Trondheim Ungarske Klubb!",
+      "welcome_message": "Velkommen til nettsiden til Den Ungarske Foreningen i Trondheim!",
       "explore_events": "Utforsk kommende arrangementer i Trondheim."
     },
     "services": {
       "title": "Tjenester",
       "friendship": {
-        "title": "Skape Nye Vennskap",
-        "description": "Møt nye mennesker i det ungarske samfunnet."
+        "title": "Skap Nye Vennskap",
+        "description": "Bli kjent med nye mennesker i det ungarske miljøet."
       },
       "networking": {
         "title": "Nettverksbygging",
@@ -22,46 +22,67 @@
       },
       "learning": {
         "title": "Lære Sammen",
-        "description": "Lær sammen med andre, del din kunnskap og erfaring."
+        "description": "Lær sammen med andre, del kunnskap og erfaringer."
       },
       "entertainment": {
         "title": "Underholdning",
-        "description": "Delta på ulike kulturelle og samfunnsarrangementer."
+        "description": "Bli med på ulike kulturelle og sosiale arrangementer."
       }
     },
     "about_us": {
-      "title": "Om Oss",
-      "description": "Trondheim Ungarske Klubb er et unikt samfunn der kjærligheten til ungarsk kultur og språk forbinder ungarerne som bor her. Vårt mål er å skape et vennlig og støttende fellesskap hvor alle kan føle seg hjemme.",
-      "link_about": "Les mer om oss"
+      "title": "Hvem er vi?",
+      "description": "Trondheimi Ungarske Klubb er et unikt fellesskap hvor kjærligheten til ungarsk kultur og språk knytter ungarere sammen. Vårt mål er å skape et vennlig og støttende miljø der alle kan føle seg hjemme.",
+      "link_about": "Lær mer om oss"
     },
     "upcoming_events": {
       "title": "Kommende Arrangementer",
-      "event_1": {
-        "name": "1. mai Grillfest",
-        "details": "[Dato, tid, sted]"
-      },
-      "event_2": {
-        "name": "Halloween",
-        "details": "[Dato, tid, sted]"
-      },
-      "event_3": {
-        "name": "Mikulás",
-        "details": "[Dato, tid, sted]"
-      },
-      "link_events": "Se alle arrangementer"
+      "link_events": "Se alle arrangementene"
     },
     "event_calendar": {
       "title": "Arrangementskalender",
-      "description": "Se alle kommende arrangementer i kalenderen vår!"
+      "description": "Se alle våre kommende arrangementer i kalenderen!"
     },
     "contact_us_cta": {
-      "title": "Ta Kontakt",
-      "description": "Hvis du har spørsmål, er nysgjerrig på oss, eller ønsker å bli med oss, kan du nå oss på:",
-      "e-mail": "TMK.info@gmail.com"
-    },
-    "footer": {
-      "copyright": "© 2024 Trondheim Ungarske Klubb. Alle rettigheter forbeholdt.",
-      "org_number": "Organisasjonsnr:"
+      "title": "Kontakt oss",
+      "description": "Hvis du har spørsmål eller ønsker å bli med oss, kan du nå oss på: ",
+      "e-mail": "trmk.info@gmail.com"
     }
+  },
+  "footer": {
+    "copyright": "© 2024 Trondheimi Ungarske Klubb. Alle rettigheter reservert.",
+    "org_number": "Organisasjonsnummer:"
+  },
+  "about_page": {
+    "introduction": {
+      "title": "Om oss",
+      "description": "Etableringen av Trondheimi Ungarske Klubb er en spesiell initiativ som stammer fra hjertet av det ungarske miljøet i Norge. Vårt mål er å skape et varmt og innbydende sted hvor kjærligheten til ungarsk språk og kultur kan knytte ungarere sammen, enten de er gamle bosettere eller nylig ankomne."
+    },
+    "mission": {
+      "title": "Vårt oppdrag",
+      "description": "Vår klubb ønsker å gi følelsen av hjemme her i nord, med fokus på å ivareta det ungarske språket og tradisjonene. Vi vil gjøre ungarsk språk og kultur tilgjengelig for alle aldre, fra barn som vokser opp her, til voksne som kanskje har bodd i Norge i flere tiår."
+    },
+    "activities": {
+      "title": "Våre aktiviteter",
+      "description": "Våre aktiviteter inkluderer kulturelle arrangementer, språklige sammenkomster og sosiale sammenkomster. Vårt mål er å bygge et sterkt og sammenknyttet fellesskap, hvor alle kan finne verdifulle tilkoblingspunkter, enten det er gjennom å praktisere ungarsk, lære om våre tradisjoner, eller møte andre i lignende situasjoner."
+    },
+    "join_us": {
+      "title": "Bli med oss!",
+      "description": "Trondheimi Ungarske Klubb er åpen for alle som er interessert i ungarsk språk og kultur, og som ønsker å delta i et aktivt og støttende fellesskap. Vi er stolte av å samle ungarere i Norge og feire vår kultur sammen, samtidig som vi støtter hverandre her i vårt fjerne nordlige hjem.",
+      "cta": "Bli med oss, og bli en del av et unikt fellesskap hvor det ungarske hjertet kan føles selv i den kalde nordavinden. Vi ønsker alle velkommen som ønsker å bevare og ivareta vår ungarske arv her i denne fjerne delen av verden."
+    }
+  },
+  "contact_page": {
+    "introduction": {
+      "title": "Kontakt",
+      "description": "Takk for at du ønsker å komme i kontakt med oss! Vennligst send oss en e-post på adressen nedenfor for å nå oss."
+    },
+    "contact_info": {
+      "email_title": "E-postadresse:",
+      "email_address": "trmk.info@gmail.com",
+      "description": "Vi ser frem til å høre fra deg snart!"
+    }
+  },
+  "event_page": {
+    "title": "Kommende Arrangementer"
   }
 }

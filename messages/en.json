@@ -2,27 +2,27 @@
   "homepage": {
     "navigation": {
       "logo": "Logo",
-      "link_about": "About",
+      "link_about": "About Us",
       "link_events": "Events",
       "link_contact": "Contact"
     },
     "hero_section": {
-      "welcome_message": "Welcome to the Trondheim Hungarian Club website!",
+      "welcome_message": "Welcome to the website of the Hungarian Club in Trondheim!",
       "explore_events": "Explore upcoming events in Trondheim."
     },
     "services": {
       "title": "Services",
       "friendship": {
-        "title": "Making New Friendships",
+        "title": "Building New Friendships",
         "description": "Meet new people in the Hungarian community."
       },
       "networking": {
         "title": "Networking",
-        "description": "Stay in touch with old and new friends."
+        "description": "Keep in touch with old and new friends."
       },
       "learning": {
         "title": "Learning Together",
-        "description": "Learn together with others, share your knowledge and experience."
+        "description": "Learn together with others, share your knowledge and experiences."
       },
       "entertainment": {
         "title": "Entertainment",
@@ -30,38 +30,59 @@
       }
     },
     "about_us": {
-      "title": "About Us",
-      "description": "The Trondheim Hungarian Club is a unique community where the love of Hungarian culture and language connects the Hungarians living here. Our goal is to create a friendly and supportive community where everyone can feel at home.",
+      "title": "Who are we?",
+      "description": "The Hungarian Club in Trondheim is a unique community where the love for Hungarian culture and language connects Hungarians living here. Our goal is to create a friendly and supportive community where everyone can feel at home.",
       "link_about": "Learn more about us"
     },
     "upcoming_events": {
       "title": "Upcoming Events",
-      "event_1": {
-        "name": "May 1st Grill Party",
-        "details": "[Date, time, location]"
-      },
-      "event_2": {
-        "name": "Halloween",
-        "details": "[Date, time, location]"
-      },
-      "event_3": {
-        "name": "Mikulás",
-        "details": "[Date, time, location]"
-      },
       "link_events": "View all events"
     },
     "event_calendar": {
       "title": "Event Calendar",
-      "description": "View all upcoming events in our calendar!"
+      "description": "Check out all of our upcoming events in our calendar!"
     },
     "contact_us_cta": {
       "title": "Get in Touch",
-      "description": "If you have any questions, are curious about us, or would like to join us, you can reach us at:",
-      "e-mail": "TMK.info@gmail.com"
-    },
-    "footer": {
-      "copyright": "© 2024 Trondheim Hungarian Club. All rights reserved.",
-      "org_number": "Organisasjonsnr:"
+      "description": "If you have any questions or would like to join us, you can reach us at: ",
+      "e-mail": "trmk.info@gmail.com"
     }
+  },
+  "footer": {
+    "copyright": "© 2024 Hungarian Club of Trondheim. All rights reserved.",
+    "org_number": "Organization Number:"
+  },
+  "about_page": {
+    "introduction": {
+      "title": "About Us",
+      "description": "The establishment of the Hungarian Club in Trondheim is a special initiative that comes from the heart of the Hungarian community in Norway. Our goal is to create a warm and welcoming place where the love of the Hungarian language and culture can connect Hungarians living here, whether they are old settlers or new arrivals."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our club aims to bring the warmth of home to the far north, with a focus on preserving the Hungarian language and traditions. We believe it is important to make Hungarian language and culture accessible to all ages, from children growing up here to adults who may have been living in Norway for decades."
+    },
+    "activities": {
+      "title": "Our Activities",
+      "description": "Our activities include organizing cultural events, language workshops, and social gatherings. Our goal is to create a strong and cohesive community where everyone can find valuable points of connection, whether it's through practicing the Hungarian language, learning about our traditions, or simply meeting others in similar situations."
+    },
+    "join_us": {
+      "title": "Join Us!",
+      "description": "The Hungarian Club in Trondheim is open to anyone interested in the Hungarian language and culture and who would like to participate in an active and supportive community. We are proud to bring Hungarians together in Norway, celebrating our culture together while supporting each other in our far northern home.",
+      "cta": "Join us, and be part of a unique community where the heartbeat of Hungary can be felt even in the icy northern winds. We warmly welcome everyone who wishes to nurture and preserve our Hungarian identity in this distant corner of the world."
+    }
+  },
+  "contact_page": {
+    "introduction": {
+      "title": "Contact",
+      "description": "Thank you for wanting to get in touch with us! Please write to the email address below to reach us."
+    },
+    "contact_info": {
+      "email_title": "Email Address:",
+      "email_address": "trmk.info@gmail.com",
+      "description": "We look forward to hearing from you soon!"
+    }
+  },
+  "event_page": {
+    "title": "Upcoming Events"
   }
 }
