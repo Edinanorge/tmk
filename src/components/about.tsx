@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "../../navigation";
 import { Montserrat } from "@next/font/google";
 import Wrapper from "./wrapper";
 import Image from "next/image";

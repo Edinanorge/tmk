@@ -31,9 +31,9 @@ export default function About() {
       </Wrapper>
 
       <div className="bg-[#62A58A]">
-        <h2 className="italic font-normal text-dark p-10 md:p-24 text-[20px] md:text-[32px]">
-          {t("join_us.description")}
-        </h2>
+        <Wrapper>
+          <h2 className="italic font-normal text-dark  text-[20px] md:text-[32px]">{t("join_us.description")}</h2>
+        </Wrapper>
       </div>
 
       <Wrapper>
