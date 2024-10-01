@@ -44,7 +44,7 @@ export default function Header() {
   };
   return (
     <header
-      className={`fixed top-0 w-full z-20 transition-colors duration-300 flex justify-between px-5 md:px-10 py-4 ${
+      className={`fixed top-0 w-full z-20 transition-colors duration-300 flex justify-between py-0   px-5 md:px-10 md:py-2 ${
         scrolled || toggle ? "bg-primary shadow-lg  " : "bg-transparent"
       }`}
     >

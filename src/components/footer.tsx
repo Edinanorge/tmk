@@ -13,18 +13,18 @@ export default function Footer() {
     <footer className="bg-tertiary">
       <div className="flex flex-col justify-center items-center">
         <Link href="/">
-          <Image src={logo} alt="Logo" className="" />
+          <Image src={logo} alt="Logo" />
         </Link>
 
-        <div className="flex gap-2">
+        <div className="flex  gap-4 mb-4 text-white ">
           <Link href="https://www.facebook.com/profile.php?id=61557698976054" passHref>
-            <div className="cursor-pointer">
-              <FaFacebook />
+            <div className="cursor-pointer text-center">
+              <FaFacebook className="text-[25px]" />
             </div>
           </Link>
           <Link href="mailto:trmk.info@gmail.com" legacyBehavior>
             <div className="cursor-pointer">
-              <IoMail />
+              <IoMail className="text-[25px]" />
             </div>
           </Link>
         </div>

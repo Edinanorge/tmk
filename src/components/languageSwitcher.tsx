@@ -13,7 +13,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="relative inline-block text-center pl-5 md:pt-1">
+    <div className="relative inline-block text-center px-3 md:pt-1">
       <button type="button" onClick={() => setIsOpen(!isOpen)}>
         <FaGlobe className="text-white text-[20px]" />
       </button>
