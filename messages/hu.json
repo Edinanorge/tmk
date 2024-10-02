@@ -1,7 +1,6 @@
 {
   "homepage": {
     "navigation": {
-      "logo": "Logo",
       "link_about": "Az egyesületről",
       "link_events": "Események",
       "link_contact": "Kapcsolat"
@@ -45,7 +44,7 @@
     },
     "contact_us_cta": {
       "title": "Lépj velünk kapcsolatba",
-      "description": "Ha kérdésed van, vagy kiváncsi vagy ránk esetleg csatlakozni szeretnél hozzánk elérsz minket: ",
+      "description": "Ha kérdésed van, kíváncsi vagy ránk, vagy csatlakozni szeretnél hozzánk, az alábbi elérhetőségeken kereshetsz minket ",
       "e-mail": "trmk.info@gmail.com"
     }
   },
