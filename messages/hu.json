@@ -7,7 +7,7 @@
     },
     "hero_section": {
       "welcome_message": "Üdvözöllek a Trondheimi Magyarok Klubja weboldalán!",
-      "explore_events": "Fedezd fel a közelgő eseményeket Trondheimben."
+      "explore_events": "Fedezd fel a közelgő eseményeket Trondheimben és környékén."
     },
     "services": {
       "title": "Szolgáltatások",
@@ -35,16 +35,12 @@
     },
     "upcoming_events": {
       "title": "Közelgő Események",
-
       "link_events": "Tekintsd meg az összes eseményt"
     },
-    "event_calendar": {
-      "title": "Esemény Naptár",
-      "description": "Tekintsd meg az összes közelgő eseményünket a naptárunkban!"
-    },
+
     "contact_us_cta": {
       "title": "Lépj velünk kapcsolatba",
-      "description": "Ha kérdésed van, kíváncsi vagy ránk, vagy csatlakozni szeretnél hozzánk, az alábbi elérhetőségeken kereshetsz minket ",
+      "description": "Kérdésed van, szeretnél csatlakozni, vagy csak köszönnél? Írj nekünk az alábbi címre! ",
       "e-mail": "trmk.info@gmail.com"
     }
   },
@@ -74,8 +70,9 @@
 
   "contact_page": {
     "introduction": {
-      "title": "Kapcsolat",
-      "description": "Köszönjük, hogy kapcsolatba szeretnél lépni velünk! Kérünk, írj az alábbi e-mail címre, hogy felvehesd velünk a kapcsolatot."
+      "title": "Lépj velünk kapcsolatba",
+      "subtitle": "Mindig örömmel hallunk olyan emberekről, akik osztoznak a szenvedélyünkben!",
+      "description": "Kérdésed van, szeretnél csatlakozni, vagy csak köszönnél? Írj nekünk az alábbi címre!"
     },
     "contact_info": {
       "email_title": "E-mail cím:",

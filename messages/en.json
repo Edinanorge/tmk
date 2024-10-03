@@ -1,7 +1,6 @@
 {
   "homepage": {
     "navigation": {
-      "logo": "Logo",
       "link_about": "About Us",
       "link_events": "Events",
       "link_contact": "Contact"
@@ -43,9 +42,11 @@
       "description": "Check out all of our upcoming events in our calendar!"
     },
     "contact_us_cta": {
-      "title": "Get in Touch",
-      "description": "If you have any questions or would like to join us, you can reach us at: ",
-      "e-mail": "trmk.info@gmail.com"
+      "title": "We'd Love to Hear From You",
+      "description": "We're here to help and answer any question you might have. We look forward to hearing from you.",
+      "e-mail": "trmk.info@gmail.com",
+      "": "",
+      "facebook": ""
     }
   },
   "footer": {
@@ -73,13 +74,14 @@
   },
   "contact_page": {
     "introduction": {
-      "title": "Contact",
-      "description": "Thank you for wanting to get in touch with us! Please send an email to the address below to reach us."
+      "title": "Let's have a talk",
+      "subtitle": "Thanks for getting in touch!",
+      "description": " We're always happy to hear from people who share our passion. Have questions, want to get involved, or just want to say hi? Drop us a line at the address below."
     },
     "contact_info": {
       "email_title": "Email Address:",
       "email_address": "trmk.info@gmail.com",
-      "description": "We look forward to hearing from you soon!"
+      "description": "We look forward to hearing from you!"
     }
   },
   "event_page": {
