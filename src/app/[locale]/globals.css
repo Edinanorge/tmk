@@ -51,6 +51,18 @@ h3 {
   padding-bottom: 5px;
 }
 
+.zoom-image {
+  overflow: hidden;
+}
+.zoom-image .image {
+  height: 100%;
+  object-fit: cover;
+}
+.zoom-image:hover .image {
+  transform: scale(1.3);
+  transition: transform 0.5s ease;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

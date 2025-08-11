@@ -29,6 +29,7 @@ export default async function RootLayout({
   params: { locale: string };
 }>) {
   const messages = await getMessages();
+
   return (
     <NextIntlClientProvider messages={messages}>
       <html lang={locale} className={font.className}>

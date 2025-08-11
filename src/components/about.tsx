@@ -15,7 +15,7 @@ export default function About() {
   return (
     <Wrapper>
       <div className="flex flex-col md:flex-row justify-center gap-5 ">
-        <div className="flex-1 bg-tertiary p-5 rounded ">
+        <div className="flex-1 bg-primary p-5 rounded ">
           <Image src={logo} alt="Hero image" objectFit="cover" className="m-auto" />
         </div>
         <div className="flex-1">
@@ -23,7 +23,7 @@ export default function About() {
           <p className="pb-10">{t("description")}</p>
           <Link
             href="/about"
-            className=" inline-block shadow-md bg-primary hover:bg-tertiary  px-4 py-2 text-light hover:text-white rounded-md  "
+            className=" inline-block shadow-md bg-tertiary hover:bg-primary  px-4 py-2 text-white hover:text-white rounded-md  "
           >
             {t("link_about")}
           </Link>

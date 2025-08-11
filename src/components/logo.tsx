@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Logo() {
   return (
     <Link href="/">
-      <Image src={logo} alt="Logo" className="h-20 w-full" />
+      <Image src={logo} alt="Logo" width={80} />
     </Link>
   );
 }

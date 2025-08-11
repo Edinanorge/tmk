@@ -1,6 +1,7 @@
 {
   "homepage": {
     "navigation": {
+      "link_home": "Főoldal",
       "link_about": "Az egyesületről",
       "link_events": "Események",
       "link_contact": "Kapcsolat"
@@ -41,17 +42,32 @@
     "contact_us_cta": {
       "title": "Lépj velünk kapcsolatba",
       "description": "Kérdésed van, szeretnél csatlakozni, vagy csak köszönnél? Írj nekünk az alábbi címre! ",
-      "e-mail": "trmk.info@gmail.com"
+      "e-mail": "trmk.info@gmail.com",
+      "cta_description": "Az alábbi gombra kattintva jelentkezhetsz tagnak az egyesületünkhöz.",
+      "cta_button": "Légy tag"
     }
   },
+
   "footer": {
-    "copyright": "© 2024 Trondheimi Magyarok Klubja. Minden jog fenntartva.",
-    "org_number": "Organisasjonsnr:"
+    "copyright": "© 2024 Trondheimi Magyar Klub. Minden jog fenntartva.",
+    "org_number": "Szervezeti azonosító: 833181742",
+    "navigation": {
+      "title": "Navigáció",
+      "link_home": "Kezdőlap",
+      "link_about": "Rólunk",
+      "link_events": "Események",
+      "link_contact": "Kapcsolat"
+    },
+    "important_links": {
+      "title": "Fontos linkek",
+      "link_code_of_conduct": "Magatartási Kódex",
+      "link_privacy_policy": "Adatvédelmi szabályzat"
+    }
   },
   "about_page": {
     "introduction": {
       "title": "Rólunk",
-      "description": "A Trondheimi Magyarok Klubjának megalapítása egy különleges kezdeményezés, ami a Norvégiában élő magyar közösség szívéből fakad. Célunk, hogy egy olyan barátságos és meghitt helyet teremtsünk, ahol a magyar nyelv és kultúra szeretete összekötheti az itt élő magyarokat, függetlenül attól, hogy régi telepesek vagy újonnan érkezettek."
+      "description": "A Trondheimi Magyarok Klubjának megalapítása egy különleges kezdeményezés, ami a Norvégiában élő magyar közösség szívéből fakad. Célunk, hogy egy olyan barátságos és meghitt helyet teremtsünk, ahol a magyar nyelv és kultúra szeretete összekötheti az itt élő magyarokat, függetlenül attól, hogy rég vagy újonnan érkezettek."
     },
     "mission": {
       "title": "Küldetésünk",
@@ -82,6 +98,10 @@
   },
 
   "event_page": {
-    "title": "Közelgő Események"
+    "introduction": {
+      "title": "Közelgő Események",
+      "subtitle": "Események és Programok",
+      "description": " Klubunk számos érdekes és sokszínű programot kínál, amelyek mindegyike lehetőséget biztosít arra, hogy közelebb kerülj a magyar nyelvhez és kultúrához, valamint új barátságokat köss a helyi magyar közösség tagjaival. Várunk szeretettel mindenkit, aki szeretné felfedezni a magyar kultúra gazdagságát és részt venni egy élénk és barátságos közösség életében!"
+    }
   }
 }

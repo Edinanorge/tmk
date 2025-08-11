@@ -16,9 +16,7 @@ const config: Config = {
         dark: "#333333",
       },
       backgroundImage: {
-        "nav-gradient": "linear-gradient(to bottom,#cdc5b6, #2F4D35,#2f4d35 , #2F4D35)",
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "cta-gradiant": "linear-gradient(145deg, #2f4d35, #4d6b75)",
       },
     },
   },

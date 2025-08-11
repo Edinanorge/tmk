@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "translations": {
+      "en": {
+        "title": "Children's Carnival",
+        "description": "Join us for a fun-filled children's carnival. Venue: Chappa v Enter?",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Gyerek farsang",
+        "description": "Csatlakozz egy szórakoztató gyerek farsanghoz. Helyszín: Chappa v Enter?",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Barnedisco",
+        "description": "Bli med på en morsom barnedisco. Sted: Chappa v Enter?",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-02-15",
+    "location": "Chappa v Enter?",
+    "time": "TBD",
+    "image": "/Farsang_FacebookEvent_Background.png",
+    "category": "children",
+    "responsible": ["Szidi", "Renata", "Eva", "Judit"]
+  },
+  {
+    "id": 2,
+    "translations": {
+      "en": {
+        "title": "Hungarians in Trondheim - Let's Party!",
+        "description": "An alcohol-free party for the Hungarian community in Trondheim. Venue: To be announced soon.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Magyarok Trondheimben - Bulizzunk!",
+        "description": "Egy alkoholmentes buli a trondheimi magyar közösség számára. Helyszín: nemsokára.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Ungarere i Trondheim - La oss feste!",
+        "description": "En alkoholfri fest for det ungarske fellesskapet i Trondheim. Sted: snart.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-03-08",
+    "location": "TBD",
+    "time": "TBD",
+    "image": "/hero.jpg",
+    "category": "community",
+    "responsible": ["Brigi", "Krisztina"]
+  },
+  {
+    "id": 3,
+    "translations": {
+      "en": {
+        "title": "Édes Anna Film Screening and Poetry Afternoon",
+        "description": "A film screening of 'Édes Anna' and a poetry afternoon with Hungarian culture themes.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Édes Anna filmvetítés és szavaló délután",
+        "description": "Édes Anna filmvetítés és szavaló délután, magyar kultúra témájában.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Édes Anna filmvisning og poesi ettermiddag",
+        "description": "Filmvisning av 'Édes Anna' og poesi ettermiddag med ungarske kulturtema.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-03-15",
+    "location": "TBD",
+    "time": "TBD",
+    "image": "/film.jpg",
+    "category": "culture",
+    "responsible": ["Brigi", "Krisztina"]
+  },
+  {
+    "id": 4,
+    "translations": {
+      "en": {
+        "title": "Spring Awakening",
+        "description": "A celebration of spring with outdoor activities and community gathering.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Tavaszváró",
+        "description": "A tavasz köszöntése szabadtéri programokkal és közösségi összejövetellel.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Vårvåkning",
+        "description": "Feiring av våren med utendørs aktiviteter og fellesskap.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-04-05",
+    "location": "TBD",
+    "time": "TBD",
+    "image": "/spring.jpg",
+    "category": "outdoor",
+    "responsible": ["Renata", "Szidi", "Judit", "Eva", "Edina"]
+  },
+  {
+    "id": 5,
+    "translations": {
+      "en": {
+        "title": "On My Path to Myself",
+        "description": "A self-discovery event with Miklós Csongor, a mental health expert.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Úton önmagamhoz",
+        "description": "Egy önismereti esemény Miklós Csongor mentálhigiénés szakemberrel.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "På vei til meg selv",
+        "description": "Et selvutviklingsarrangement med Miklós Csongor, en mentalhygienisk spesialist.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-02-21",
+    "location": "TBD",
+    "time": "TBD",
+    "image": "/selfdiscovery.jpg",
+    "category": "personal development",
+    "responsible": "Krisztina"
+  },
+  {
+    "id": 4,
+    "translations": {
+      "en": {
+        "title": "Hungarians in Trondheim - Let's Party!",
+        "description": "An alcohol-free party for the Hungarian community in Trondheim. Venue: To be announced soon.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Magyarok Trondheimben - Bulizzunk!",
+        "description": "Egy alkoholmentes buli a trondheimi magyar közösség számára. Helyszín: nemsokára.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Ungarere i Trondheim - La oss feste!",
+        "description": "En alkoholfri fest for det ungarske fellesskapet i Trondheim. Sted: snart.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-03-08",
+    "location": "TBD",
+    "time": "TBD",
+    "image": "/party.jpg",
+    "category": "community",
+    "responsible": ["Brigi", "Krisztina"]
+  },
+
+  {
+    "id": 7,
+    "translations": {
+      "en": {
+        "title": "Midsandtangen Meetup",
+        "description": "Join us for a meetup at Midsandtangen, weather permitting.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Midsandtangen találkozó",
+        "description": "Csatlakozz hozzánk a Midsandtangen találkozón, időjárás függvényében.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Midsandtangen Møte",
+        "description": "Bli med på et møte på Midsandtangen, væravhengig.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-05-01",
+    "location": "Midsandtangen",
+    "time": "TBD",
+    "image": "/meetup.jpg",
+    "category": "community",
+    "responsible": []
+  },
+  {
+    "id": 8,
+    "translations": {
+      "en": {
+        "title": "Vassfjellet Hiking Tour",
+        "description": "Join us for a hiking tour to Vassfjellet, meeting in Melhus.",
+        "datesubtitle": "Date",
+        "locationsubtitle": "Location",
+        "timesubtitle": "Time"
+      },
+      "hu": {
+        "title": "Túra Vassfjellet",
+        "description": "Csatlakozz hozzánk egy túrára Vassfjellet felé, találkozás Melhusban.",
+        "datesubtitle": "Dátum",
+        "locationsubtitle": "Helyszín",
+        "timesubtitle": "Időpont"
+      },
+      "no": {
+        "title": "Fottur til Vassfjellet",
+        "description": "Bli med på en fottur til Vassfjellet, møt oss i Melhus.",
+        "datesubtitle": "Dato",
+        "locationsubtitle": "Sted",
+        "timesubtitle": "Tid"
+      }
+    },
+    "date": "2025-05-11",
+    "location": "Melhus",
+    "time": "TBD",
+    "image": "/hiking.jpg",
+    "category": "outdoor",
+    "responsible": ["Krisztina"]
+  }
+]

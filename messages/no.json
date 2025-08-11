@@ -1,6 +1,7 @@
 {
   "homepage": {
     "navigation": {
+      "link_home": "Hjemmeside",
       "link_about": "Om oss",
       "link_events": "Arrangementer",
       "link_contact": "Kontakt"
@@ -37,16 +38,30 @@
       "title": "Kommende Arrangementer",
       "link_events": "Se alle arrangementene"
     },
-  
+
     "contact_us_cta": {
-      "title": "Kontakt oss",
-      "description": "Hvis du har spørsmål eller ønsker å bli med oss, kan du nå oss på: ",
-      "e-mail": "trmk.info@gmail.com"
+      "title": "Contact Us",
+      "description": "Do you have a question, want to join, or just want to say hello? Write to us at the address below!",
+      "e-mail": "trmk.info@gmail.com",
+      "cta_description": "Click the button below to apply for membership in our association.",
+      "cta_button": "Become a Member"
     }
   },
   "footer": {
-    "copyright": "© 2024 Trondheimi Ungarske Klubb. Alle rettigheter reservert.",
-    "org_number": "Organisasjonsnummer:"
+    "copyright": "© 2024 Ungarsk Klubb i Trondheim. Alle rettigheter reservert.",
+    "org_number": "Organisasjonsnummer: 833181742",
+    "navigation": {
+      "title": "Navigasjon",
+      "link_home": "Hjem",
+      "link_about": "Om oss",
+      "link_events": "Arrangementer",
+      "link_contact": "Kontakt"
+    },
+    "important_links": {
+      "title": "Viktige lenker",
+      "link_code_of_conduct": "Etiske retningslinjer",
+      "link_privacy_policy": "Personvernerklæring"
+    }
   },
   "about_page": {
     "introduction": {
@@ -80,6 +95,10 @@
     }
   },
   "event_page": {
-    "title": "Kommende Arrangementer"
+    "introduction": {
+      "title": "Kommende Arrangementer",
+      "subtitle": "Arrangementer og Programmer",
+      "description": "Klubben vår tilbyr en rekke interessante og varierte programmer, som alle gir muligheter til å komme nærmere det ungarske språket og kulturen, samt å knytte nye vennskap med medlemmer av det lokale ungarske fellesskapet. Vi ønsker alle velkommen som ønsker å utforske rikdommen i ungarsk kultur og delta i livet til et livlig og vennlig fellesskap!"
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
   "homepage": {
     "navigation": {
+      "link_home": "Home",
       "link_about": "About Us",
       "link_events": "Events",
       "link_contact": "Contact"
@@ -42,16 +43,28 @@
       "description": "Check out all of our upcoming events in our calendar!"
     },
     "contact_us_cta": {
-      "title": "We'd Love to Hear From You",
-      "description": "We're here to help and answer any question you might have. We look forward to hearing from you.",
+      "title": "Contact Us",
+      "description": "Do you have a question, want to join, or just want to say hello? Write to us at the address below!",
       "e-mail": "trmk.info@gmail.com",
-      "": "",
-      "facebook": ""
+      "cta_description": "Click the button below to apply for membership in our association.",
+      "cta_button": "Become a Member"
     }
   },
   "footer": {
     "copyright": "© 2024 Hungarian Club of Trondheim. All rights reserved.",
-    "org_number": "Organization Number:"
+    "org_number": "Organization Number: 833181742",
+    "navigation": {
+      "title": "Navigation",
+      "link_home": "Home",
+      "link_about": "About Us",
+      "link_events": "Events",
+      "link_contact": "Contact"
+    },
+    "important_links": {
+      "title": "Important Links",
+      "link_code_of_conduct": "Code of Conduct",
+      "link_privacy_policy": "Privacy Policy"
+    }
   },
   "about_page": {
     "introduction": {
@@ -85,6 +98,10 @@
     }
   },
   "event_page": {
-    "title": "Upcoming Events"
+    "introduction": {
+      "title": "Upcoming Events",
+      "subtitle": "Events and Programs",
+      "description": "Our club offers a variety of interesting and diverse programs, each providing an opportunity to get closer to the Hungarian language and culture, as well as to make new friendships with members of the local Hungarian community. We warmly welcome everyone who wishes to explore the richness of Hungarian culture and participate in the life of a lively and friendly community!"
+    }
   }
 }

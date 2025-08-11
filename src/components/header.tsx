@@ -20,6 +20,7 @@ export default function Header() {
   const langPrefix = pathname.split("/")[1];
 
   const navLinks = [
+    { name: t("navigation.link_home"), href: `/${langPrefix}/` },
     { name: t("navigation.link_about"), href: `/${langPrefix}/about` },
     { name: t("navigation.link_events"), href: `/${langPrefix}/events` },
     { name: t("navigation.link_contact"), href: `/${langPrefix}/contact` },
@@ -44,7 +45,7 @@ export default function Header() {
   };
   return (
     <header
-      className={`fixed top-0 w-full z-20 transition-colors duration-300 flex justify-between py-0   px-5 md:px-10 md:py-2 ${
+      className={`fixed top-0 w-full z-20 transition-colors duration-300 flex justify-between py-0 px-5 md:px-10 md:py-2 ${
         scrolled || toggle ? "bg-primary shadow-lg  " : "bg-transparent"
       }`}
     >
@@ -76,7 +77,7 @@ export default function Header() {
           </div>
 
           {toggle && (
-            <div className="absolute top-20 right-0 w-full bg-primary p-6 flex flex-col items-center md:hidden z-10 text-center ">
+            <div className="absolute top-14 right-0 w-full bg-primary p-6 flex flex-col items-center md:hidden z-10 text-center ">
               <ul className="flex flex-col gap-4">
                 {navLinks.map((link) => {
                   const isActive = pathname === link.href;
