@@ -50,7 +50,7 @@ export default function Footer() {
 
   const importantLinks = [
     { name: "VIPPS", href: "https://www.vipps.no/" },
-    { name: t("important_links.link_code_of_conduct"), href: "/code-of-conduct" },
+    { name: "Admin", href: "/admin" },
     { name: t("important_links.link_privacy_policy"), href: "/privacy-policy" },
   ];
 

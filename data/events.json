@@ -27,7 +27,7 @@
     "date": "2025-02-15",
     "location": "Chappa v Enter?",
     "time": "TBD",
-    "image": "/Farsang_FacebookEvent_Background.png",
+    "image": "/placeholder.png",
     "category": "children",
     "responsible": ["Szidi", "Renata", "Eva", "Judit"]
   },
@@ -59,7 +59,7 @@
     "date": "2025-03-08",
     "location": "TBD",
     "time": "TBD",
-    "image": "/hero.jpg",
+    "image": "/placeholder.png",
     "category": "community",
     "responsible": ["Brigi", "Krisztina"]
   },
@@ -91,7 +91,7 @@
     "date": "2025-03-15",
     "location": "TBD",
     "time": "TBD",
-    "image": "/film.jpg",
+    "image": "/placeholder.png",
     "category": "culture",
     "responsible": ["Brigi", "Krisztina"]
   },
@@ -120,10 +120,10 @@
         "timesubtitle": "Tid"
       }
     },
-    "date": "2025-04-05",
+    "date": "2025-04-15",
     "location": "TBD",
     "time": "TBD",
-    "image": "/spring.jpg",
+    "image": "/placeholder.png",
     "category": "outdoor",
     "responsible": ["Renata", "Szidi", "Judit", "Eva", "Edina"]
   },
@@ -155,12 +155,12 @@
     "date": "2025-02-21",
     "location": "TBD",
     "time": "TBD",
-    "image": "/selfdiscovery.jpg",
+    "image": "/placeholder.png",
     "category": "personal development",
     "responsible": "Krisztina"
   },
   {
-    "id": 4,
+    "id": 6,
     "translations": {
       "en": {
         "title": "Hungarians in Trondheim - Let's Party!",
@@ -184,10 +184,10 @@
         "timesubtitle": "Tid"
       }
     },
-    "date": "2025-03-08",
+    "date": "2025-10-7",
     "location": "TBD",
     "time": "TBD",
-    "image": "/party.jpg",
+    "image": "/placeholder.png",
     "category": "community",
     "responsible": ["Brigi", "Krisztina"]
   },
@@ -217,10 +217,10 @@
         "timesubtitle": "Tid"
       }
     },
-    "date": "2025-05-01",
+    "date": "2025-09-17",
     "location": "Midsandtangen",
     "time": "TBD",
-    "image": "/meetup.jpg",
+    "image": "/placeholder.png",
     "category": "community",
     "responsible": []
   },
@@ -249,10 +249,10 @@
         "timesubtitle": "Tid"
       }
     },
-    "date": "2025-05-11",
+    "date": "2025-09-11",
     "location": "Melhus",
     "time": "TBD",
-    "image": "/hiking.jpg",
+    "image": "/placeholder.png",
     "category": "outdoor",
     "responsible": ["Krisztina"]
   }
