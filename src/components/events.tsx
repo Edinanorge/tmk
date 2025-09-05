@@ -19,19 +19,20 @@ export default function Events() {
     .map((event) => ({
       ...event,
       dateObj: new Date(event.date),
-      title: event.translations[locale]?.title || event.translations["hu"].title,
-      description: event.translations[locale]?.description || event.translations["hu"].description,
+      title: event.translations[locale as "en" | "hu" | "no"]?.title || event.translations["hu"].title,
+      description:
+        event.translations[locale as "en" | "hu" | "no"]?.description || event.translations["hu"].description,
       labels: {
-        date: event.translations[locale]?.datesubtitle || event.translations["hu"].datesubtitle,
-        location: event.translations[locale]?.locationsubtitle || event.translations["hu"].locationsubtitle,
-        time: event.translations[locale]?.timesubtitle || event.translations["hu"].timesubtitle,
+        date: event.translations[locale as "en" | "hu" | "no"]?.datesubtitle || event.translations["hu"].datesubtitle,
+        location:
+          event.translations[locale as "en" | "hu" | "no"]?.locationsubtitle ||
+          event.translations["hu"].locationsubtitle,
+        time: event.translations[locale as "en" | "hu" | "no"]?.timesubtitle || event.translations["hu"].timesubtitle,
       },
+      responsible: Array.isArray(event.responsible) ? event.responsible : [event.responsible], // ⬅️ itt alakítjuk mindig tömbbé
     }))
-
     .filter((event) => event.dateObj >= today)
-
     .sort((a, b) => a.dateObj.getTime() - b.dateObj.getTime())
-
     .slice(0, 3);
 
   return (

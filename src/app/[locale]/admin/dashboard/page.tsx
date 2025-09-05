@@ -3,22 +3,19 @@
 import { redirect } from "next/navigation";
 import eventsData from "../../../../../data/events.json";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function DashboardPage() {
   const isLoggedIn = true;
-  const [events, setEvents] = useState(eventsData);
-  const [selectedEvent, setSelectedEvent] = useState<{
-    id: number;
-    name: string;
-    description: String;
-    date: string;
-    image?: string;
-  } | null>(null);
+  const [eventList, setEventList] = useState(eventsData);
+  const [selectedEvent, setSelectedEvent] = useState<(typeof eventList)[0] | null>(null);
   const [form, setForm] = useState({ name: "", description: "", date: "", image: "" });
+
   if (!isLoggedIn) {
     redirect("/admin");
   }
-  const handleModify = (event: (typeof events)[0]) => {
+
+  const handleModify = (event: (typeof eventList)[0]) => {
     setSelectedEvent(event);
     setForm({
       name: event.translations.hu.title,
@@ -29,17 +26,21 @@ export default function DashboardPage() {
   };
 
   const handleSave = async () => {
+    if (!selectedEvent) return;
+
     const res = await fetch("/api/events/update", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id: selectedEvent.id, ...form }),
     });
+
     const data = await res.json();
     if (data.success) {
-      setEvents(data.updatedData); // frissítjük a state-et
+      setEventList(data.updatedData);
       setSelectedEvent(null);
     }
   };
+
   return (
     <>
       <div className="bg-primary h-[100px]"></div>
@@ -74,7 +75,7 @@ export default function DashboardPage() {
               </tr>
             </thead>
             <tbody>
-              {events.map((event) => (
+              {eventList.map((event) => (
                 <tr key={event.id} className="border-b hover:bg-gray-50">
                   <td className="py-3 px-6">{event.id}</td>
                   <td className="py-3 px-6">{event.translations.hu.title}</td>
@@ -136,8 +137,15 @@ export default function DashboardPage() {
                   }}
                   className="mb-4"
                 />
-
-                {form.image && <img src={form.image} className="mb-4 w-full h-32 object-cover rounded" />}
+                {form.image && (
+                  <Image
+                    src={form.image || "/placeholder.png"} // fallback, ha undefined
+                    alt="Event image"
+                    width={600}
+                    height={200}
+                    className="mb-4 w-full h-32 object-cover rounded"
+                  />
+                )}
 
                 <div className="flex justify-end gap-2">
                   <button className="px-4 py-2 bg-gray-300 rounded" onClick={() => setSelectedEvent(null)}>
