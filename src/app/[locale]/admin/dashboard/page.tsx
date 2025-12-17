@@ -36,16 +36,41 @@ export default function DashboardPage() {
   const handleSave = async () => {
     if (!selectedEvent) return;
 
-    const res = await fetch("/api/events/update", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: selectedEvent.id, ...form }),
-    });
+    try {
+      const payload = {
+        id: selectedEvent.id,
+        date: form.date,
+        location: form.location,
+        image: form.image,
+        translations: {
+          ...selectedEvent.translations,
+          hu: {
+            ...selectedEvent.translations.hu,
+            title: form.name,
+            description: form.description,
+          },
+        },
+      };
 
-    const data = await res.json();
-    if (data.success) {
+      const res = await fetch("/api/events/update", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) throw new Error("Failed to save event");
+
+      const data = await res.json();
+
+      if (!data.success || !Array.isArray(data.updatedData)) {
+        throw new Error("Invalid response from server");
+      }
+
       setEventList(data.updatedData);
       setSelectedEvent(null);
+    } catch (err) {
+      console.error(err);
+      alert("Hiba történt a mentés során");
     }
   };
 
@@ -174,6 +199,7 @@ export default function DashboardPage() {
                 <label className="block font-semibold">Name</label>
                 <input
                   className="w-full border p-2 rounded mb-4"
+                  type="text"
                   value={form.name}
                   onChange={(e) =>
                     setForm({
@@ -215,6 +241,7 @@ export default function DashboardPage() {
                   <div className="flex-1">
                     <label className="block font-semibold">Location</label>
                     <input
+                      type="text"
                       className="w-full border p-2 rounded"
                       value={form.location}
                       onChange={(e) =>
