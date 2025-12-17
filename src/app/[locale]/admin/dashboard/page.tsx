@@ -9,7 +9,7 @@ export default function DashboardPage() {
   const isLoggedIn = true;
   const [eventList, setEventList] = useState(eventsData);
   const [selectedEvent, setSelectedEvent] = useState<(typeof eventList)[0] | null>(null);
-  const [form, setForm] = useState({ name: "", description: "", date: "", image: "" });
+  const [form, setForm] = useState({ name: "", description: "", date: "", image: "", location: "" });
 
   if (!isLoggedIn) {
     redirect("/admin");
@@ -22,6 +22,7 @@ export default function DashboardPage() {
       description: event.translations.hu.description,
       date: event.date,
       image: event.image || "",
+      location: event.location,
     });
   };
 
@@ -96,62 +97,80 @@ export default function DashboardPage() {
           {/* Modal */}
           {selectedEvent && (
             <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center">
-              <div className="bg-white p-6 rounded w-100">
-                <h3 className="text-xl font-bold mb-4">Modify Event</h3>
+              <div className="bg-white p-6 rounded w-[50vw]">
+                <h2 className="text-xl font-bold mb-4">Modify Event</h2>
+
+                {/* Image preview with upload button overlay */}
+                <div className="relative mb-6">
+                  <Image
+                    src={form.image || "/placeholder.png"}
+                    alt="Event image"
+                    width={600}
+                    height={400}
+                    className="w-full object-cover rounded"
+                  />
+                  <label className="absolute bottom-2 right-2 bg-black bg-opacity-60 text-white px-3 py-1 rounded cursor-pointer">
+                    Upload
+                    <input
+                      type="file"
+                      accept="image/*"
+                      onChange={(e) => {
+                        if (e.target.files && e.target.files[0]) {
+                          const reader = new FileReader();
+                          reader.onload = (ev) => {
+                            setForm({ ...form, image: ev.target?.result as string });
+                          };
+                          reader.readAsDataURL(e.target.files[0]);
+                        }
+                      }}
+                      className="hidden"
+                    />
+                  </label>
+                </div>
 
                 {/* Form inputs */}
-                <label className="block mb-2">Name</label>
+                <label className="block font-semibold">Name</label>
                 <input
                   type="text"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   className="w-full border p-2 rounded mb-4"
                 />
-                <label className="block mb-2">Description</label>
+
+                <label className="block font-semibold">Description</label>
                 <textarea
                   value={form.description}
                   onChange={(e) => setForm({ ...form, description: e.target.value })}
                   className="w-full border p-2 rounded mb-4 resize-y"
                   rows={4}
                 />
-                <label className="block mb-2">Date</label>
-                <input
-                  type="date"
-                  value={form.date}
-                  onChange={(e) => setForm({ ...form, date: e.target.value })}
-                  className="w-full border p-2 rounded mb-4"
-                />
+                <div className="flex gap-4 mb-4">
+                  <div className="flex-1">
+                    <label className="block font-semibold">Date</label>
+                    <input
+                      type="date"
+                      value={form.date}
+                      onChange={(e) => setForm({ ...form, date: e.target.value })}
+                      className="w-full border p-2 rounded"
+                    />
+                  </div>
 
-                <label className="block mb-2">Image</label>
-                <input
-                  type="file"
-                  accept="image/*"
-                  onChange={(e) => {
-                    if (e.target.files && e.target.files[0]) {
-                      const reader = new FileReader();
-                      reader.onload = (ev) => {
-                        setForm({ ...form, image: ev.target?.result as string });
-                      };
-                      reader.readAsDataURL(e.target.files[0]);
-                    }
-                  }}
-                  className="mb-4"
-                />
-                {form.image && (
-                  <Image
-                    src={form.image || "/placeholder.png"} // fallback, ha undefined
-                    alt="Event image"
-                    width={600}
-                    height={200}
-                    className="mb-4 w-full h-32 object-cover rounded"
-                  />
-                )}
+                  <div className="flex-1">
+                    <label className="block font-semibold">Location</label>
+                    <input
+                      type="text"
+                      value={form.location || ""}
+                      onChange={(e) => setForm({ ...form, location: e.target.value })}
+                      className="w-full border p-2 rounded"
+                    />
+                  </div>
+                </div>
 
                 <div className="flex justify-end gap-2">
                   <button className="px-4 py-2 bg-gray-300 rounded" onClick={() => setSelectedEvent(null)}>
                     Cancel
                   </button>
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={handleSave}>
+                  <button className="px-4 py-2 bg-primary text-white rounded" onClick={handleSave}>
                     Save
                   </button>
                 </div>

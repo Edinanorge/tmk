@@ -2,41 +2,8 @@ import { useTranslations } from "next-intl";
 import { Link } from "../../navigation";
 import { FaFacebook } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-
-import logo from "../../public/logo.png";
 import Image from "next/image";
-
-// export default function Footer() {
-//   const t = useTranslations("footer");
-
-//   return (
-//     <footer className="bg-tertiary">
-//       <div className="flex flex-col justify-center items-center">
-//         <Link href="/">
-//           <Image src={logo} alt="Logo" />
-//         </Link>
-
-//         <div className="flex  gap-4 mb-4 text-white ">
-//           <Link href="https://www.facebook.com/profile.php?id=61557698976054" passHref>
-//             <div className="cursor-pointer text-center">
-//               <FaFacebook className="text-[25px]" />
-//             </div>
-//           </Link>
-//           <Link href="mailto:trmk.info@gmail.com" legacyBehavior>
-//             <div className="cursor-pointer">
-//               <IoMail className="text-[25px]" />
-//             </div>
-//           </Link>
-//         </div>
-//       </div>
-
-//       <div className="p-2 pl-5 text-sm text-white  ">
-//         <span>{t("copyright")}</span>
-//         <span className="font-bold pl-2">{t("org_number")}</span>
-//       </div>
-//     </footer>
-//   );
-// }
+import logo from "../../public/logo.png";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -55,56 +22,80 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-tertiary text-white py-8">
+    <footer className="bg-gradient-to-b from-tertiary to-black text-gray-300 pt-12 pb-6">
       <div className="container mx-auto px-6 md:px-12">
-        {/* Navigation Links */}
-        <div className="flex flex-wrap justify-center gap-6 mt-6 md:justify-between">
-          <div className="w-[100px]">
-            <h4 className="font-bold mb-2">{t("navigation.title")}</h4>
-            <ul className="flex flex-col gap-2">
+        {/* Grid content */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+          {/* Logo + Tagline */}
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+            <Image src={logo} alt="Logo" className="w-52 md:w-56 h-auto" priority />
+          </div>
+
+          {/* Navigation */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4 text-white">{t("navigation.title")}</h4>
+            <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="hover:underline">
+                  <Link href={link.href} className="hover:text-white transition-colors">
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
-          </div>
-
-          <div className="flex flex-col items-center md:justify-center">
-            <Link href="/">
-              <Image src={logo} alt="Logo" className="h-48 w-auto" />
-            </Link>
-            <div className="flex gap-4 mt-4 md:mt-0">
-              <Link href="https://www.facebook.com/profile.php?id=61557698976054" passHref>
-                <FaFacebook className="text-2xl cursor-pointer hover:text-primary transition-colors" />
-              </Link>
-              <Link href="mailto:trmk.info@gmail.com">
-                <IoMail className="text-2xl cursor-pointer hover:text-primary transition-colors" />
-              </Link>
-            </div>
           </div>
 
           {/* Important Links */}
-          <div className="w-[150px]">
-            <h4 className="font-bold mb-2">{t("important_links.title")}</h4>
-            <ul className="flex flex-col gap-2">
+          <div>
+            <h4 className="text-lg font-semibold mb-4 text-white">{t("important_links.title")}</h4>
+            <ul className="space-y-2">
               {importantLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="hover:underline">
+                  <Link href={link.href} className="hover:text-white transition-colors">
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
+
+          {/* Newsletter + Social */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4 text-white">{t("newsletter.title") || "Stay Updated"}</h4>
+            <div className="flex flex-col gap-4">
+              {/* Newsletter input */}
+              <div className="flex">
+                <input
+                  type="email"
+                  placeholder={t("newsletter.placeholder") || "Your email"}
+                  className="px-3 py-2 rounded-l-md w-full bg-gray-800 text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
+                />
+                <button className="px-4 py-2 bg-primary text-white rounded-r-md hover:bg-primary/80 transition-colors">
+                  {t("newsletter.subscribe") || "Subscribe"}
+                </button>
+              </div>
+
+              {/* Social links */}
+              <div className="flex gap-2">
+                <Link href="https://www.facebook.com/profile.php?id=61557698976054" passHref>
+                  <div className="p-4 rounded-full bg-gray-800 hover:bg-primary transition-colors cursor-pointer">
+                    <FaFacebook className="text-xl" />
+                  </div>
+                </Link>
+                <Link href="mailto:trmk.info@gmail.com">
+                  <div className="p-4 rounded-full bg-gray-800 hover:bg-primary transition-colors cursor-pointer">
+                    <IoMail className="text-xl" />
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Copyright */}
-        <div className="mt-8 pt-8 text-center text-sm border-t-2  ">
+        {/* Divider */}
+        <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-400">
           <p>
-            {t("copyright")} <span className="font-bold">{t("org_number")}</span>
+            {t("copyright")} <span className="text-white">{t("org_number")}</span>
           </p>
         </div>
       </div>

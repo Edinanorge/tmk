@@ -36,7 +36,8 @@
     },
     "upcoming_events": {
       "title": "Upcoming Events",
-      "link_events": "View all events"
+      "link_events": "View all events",
+      "no_events": "No upcoming events"
     },
     "event_calendar": {
       "title": "Event Calendar",
@@ -64,6 +65,11 @@
       "title": "Important Links",
       "link_code_of_conduct": "Code of Conduct",
       "link_privacy_policy": "Privacy Policy"
+    },
+    "newsletter": {
+      "title": "Updated",
+      "placeholder": "Your email",
+      "subscribe": "Subscribe"
     }
   },
   "about_page": {

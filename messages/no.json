@@ -36,7 +36,8 @@
     },
     "upcoming_events": {
       "title": "Kommende Arrangementer",
-      "link_events": "Se alle arrangementene"
+      "link_events": "Se alle arrangementene",
+      "no_events": "Ingen kommende arrangementer"
     },
 
     "contact_us_cta": {
@@ -61,6 +62,11 @@
       "title": "Viktige lenker",
       "link_code_of_conduct": "Etiske retningslinjer",
       "link_privacy_policy": "Personvernerklæring"
+    },
+    "newsletter": {
+      "title": "Oppdateringer",
+      "placeholder": "Din e-post",
+      "subscribe": "Abonner"
     }
   },
   "about_page": {

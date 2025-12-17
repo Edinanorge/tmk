@@ -2,7 +2,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { Montserrat } from "@next/font/google";
 import Wrapper from "./wrapper";
 import EventList from "./eventList";
-import eventsData from "../../data/events.json";
+import rowEventsData from "../../data/events.json";
 
 const fontH2 = Montserrat({
   subsets: ["latin"],
@@ -15,7 +15,7 @@ export default function Events() {
 
   const today = new Date();
 
-  const localizedEvents = eventsData
+  const localizedEvents = rowEventsData
     .map((event) => ({
       ...event,
       dateObj: new Date(event.date),
@@ -29,7 +29,7 @@ export default function Events() {
           event.translations["hu"].locationsubtitle,
         time: event.translations[locale as "en" | "hu" | "no"]?.timesubtitle || event.translations["hu"].timesubtitle,
       },
-      responsible: Array.isArray(event.responsible) ? event.responsible : [event.responsible], // ⬅️ itt alakítjuk mindig tömbbé
+      responsible: Array.isArray(event.responsible) ? event.responsible : [event.responsible],
     }))
     .filter((event) => event.dateObj >= today)
     .sort((a, b) => a.dateObj.getTime() - b.dateObj.getTime())
@@ -39,7 +39,11 @@ export default function Events() {
     <div className="bg-light w-full mt-10">
       <Wrapper>
         <h2 className={`text-center text-primary ${fontH2.className} font-bold pb-5`}>{t("title")}</h2>
-        <EventList events={localizedEvents} />
+        {localizedEvents.length === 0 ? (
+          <p className="text-center text-gray-600">{t("no_events")}</p>
+        ) : (
+          <EventList events={localizedEvents} />
+        )}
       </Wrapper>
     </div>
   );

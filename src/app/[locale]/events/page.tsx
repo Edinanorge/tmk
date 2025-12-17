@@ -112,11 +112,11 @@ export default function EventList() {
                       />
                     </div>
 
-                    <div>
+                    <div className="self-start pt-10">
                       <h4 className="text-lg font-bold flex items-center gap-3">
-                        {event.translations[currentLanguage]?.title || "No Title"}
+                        {event.translations[currentLanguage]?.title || "No Title"}{" "}
                         <span
-                          className={`px-3 py-1 text-sm rounded-lg ${
+                          className={`px-3 px-1 text-sm rounded-lg ${
                             isPast ? "bg-gray-300 text-gray-800" : "bg-green-200 text-green-800"
                           }`}
                         >

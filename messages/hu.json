@@ -36,7 +36,8 @@
     },
     "upcoming_events": {
       "title": "Közelgő Események",
-      "link_events": "Tekintsd meg az összes eseményt"
+      "link_events": "Tekintsd meg az összes eseményt",
+      "no_events": "Jelenleg nincs közelgő esemény"
     },
 
     "contact_us_cta": {
@@ -62,6 +63,11 @@
       "title": "Fontos linkek",
       "link_code_of_conduct": "Magatartási Kódex",
       "link_privacy_policy": "Adatvédelmi szabályzat"
+    },
+    "newsletter": {
+      "title": "Friss hírek",
+      "placeholder": "E-mail címed",
+      "subscribe": "Feliratkozás"
     }
   },
   "about_page": {

@@ -13,7 +13,9 @@ export default function Contact() {
     <main className="flex min-h-screen flex-col items-center justify-between text-center xl:text-start">
       <Hero title={t("introduction.title")} heroImage={hero.src} height="half" />
       <Wrapper>
-        <h2 className="text-primary ">{t("introduction.subtitle")}</h2>
+        <h2 className="text-primary leading-tight sm:leading-normal md:leading-relaxed">
+          {t("introduction.subtitle")}
+        </h2>
         <p className=" ">{t("introduction.description")}</p>
         <div className="my-8 pl-4">
           <p className="font-bold ">{t("contact_info.email_title")}</p>
