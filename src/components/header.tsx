@@ -44,10 +44,16 @@ export default function Header() {
     setToggle(false);
   };
   return (
+    // <header
+    //   className={`fixed top-0 w-full z-20 transition-colors duration-300 flex justify-between py-0 px-5 md:px-10 md:py-2 ${
+    //     scrolled || toggle ? "bg-primary shadow-lg  " : "bg-transparent"
+    //   }`}
+    // >
     <header
-      className={`fixed top-0 w-full z-20 transition-colors duration-300 flex justify-between py-0 px-5 md:px-10 md:py-2 ${
-        scrolled || toggle ? "bg-primary shadow-lg  " : "bg-transparent"
-      }`}
+      className={`fixed top-0 w-full z-20 flex justify-between py-0 px-5 md:px-10 md:py-2
+    bg-primary md:${scrolled || toggle ? "bg-primary shadow-lg" : "bg-transparent"}
+    transition-colors duration-300
+  `}
     >
       <Logo />
       <div className="flex items-center pr-2">

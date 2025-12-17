@@ -52,9 +52,8 @@ export default function DashboardPage() {
   return (
     <>
       {/* Top bar */}
-      <div className="bg-primary h-[100px] fixed top-0 left-0 right-0 z-40 md:static" />
 
-      <div className="min-h-screen flex pt-[100px] md:pt-0">
+      <div className="min-h-screen flex pt-[100px] ">
         {/* Sidebar (desktop only) */}
         <aside className="hidden md:flex w-64 bg-primary text-white px-6 pt-20 flex-col">
           <h1 className="text-2xl font-bold mb-6">Admin Panel</h1>
