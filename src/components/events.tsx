@@ -40,7 +40,24 @@ export default function Events() {
       <Wrapper>
         <h2 className={`text-center text-primary ${fontH2.className} font-bold pb-5`}>{t("title")}</h2>
         {localizedEvents.length === 0 ? (
-          <p className="text-center text-gray-600">{t("no_events")}</p>
+          <p className="flex items-center justify-center gap-2 text-center text-gray-600 text-sm sm:text-base">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              className="h-4 w-4 text-gray-500"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M8 2v4m8-4v4M3 10h18M5 6h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"
+              />
+            </svg>
+
+            {t("no_events", { defaultMessage: "No upcoming events" })}
+          </p>
         ) : (
           <EventList events={localizedEvents} />
         )}

@@ -15,7 +15,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     if (username === "admin" && password === "1234") {
-      localStorage.setItem("isLoggedIn", "true"); // jelzés, hogy belépett
+      localStorage.setItem("isLoggedIn", "true");
       router.push("/admin/dashboard");
     } else {
       setError("Hibás felhasználónév vagy jelszó");
